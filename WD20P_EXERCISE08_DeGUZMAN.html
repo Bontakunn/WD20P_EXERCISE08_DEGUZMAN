@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WD20P_EXERCISE08-B_DeGUZMAN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+  </head>
+  <body>
+    <!--Start ng Navbar-->
+
+    <div class="container-fluid bg-warning">
+        <div class="navbar navbar-expand-lg d-flex">
+            <a class="navbar-brand" href="">
+                <img src="logo poke.jpg" style="width:100px;">
+            </a>
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#NavbarMenu"
+            aria-controls="navbarmark"
+            aria-expand="false"
+            aria-label="toggle navigation">
+            
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse and navbar-collapse" id="NavbarMenu">
+                <ul class="navbar-nav text-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            List 1
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            List 2
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            List 3
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle"
+                         href="" 
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Link 4
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="">
+                                    Option 1
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex ms-auto" role="search">
+                    <input type="text" class="form-control"
+                    placeholder="Search" 
+                    aria-label="Search">
+                    <button type="submit" class="btn btn-outline-primary">
+                        Search
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--End of Navbar-->
+    <!--Carousel-->
+    <div class="container bg-light max-height d-flex align-items-center">
+        <div id="carouselmo" 
+        class="carousel slide carousel-dark" 
+        data-bs-interval="4000"
+        data-bs-ride="carousel">
+    <!--Indicator-->
+            <div class="carousel-indicators">
+            <button type="button"
+                data-bs-target="#carouselmo"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1">
+            </button>
+            <button type="button"
+                data-bs-target="#carouselmo"
+                data-bs-slide-to="1"
+                class="active"
+                aria-current="false"
+                aria-label="Slide 2">
+            </button>
+            <button type="button"
+                data-bs-target="#carouselmo"
+                data-bs-slide-to="2"
+                class="active"
+                aria-current="false"
+                aria-label="Slide 3">
+            </button>
+            </div>
+        <!--Carousel Images-->    
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="1.jpg"
+                        class="d-block w-auto">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>This is Caption</h5>
+                            <p>Other text describing the caption</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="2.jpg"
+                        class="d-block w-auto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="3.jpg"
+                        class="d-block w-auto">
+                    </div>
+                </div>
+    <!--Controls prev-->
+                <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselmo"
+                data-bs-slide="Prev">
+                <span 
+                class="carousel-control-prev-icon"
+                aria-hidden="true">
+                </span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+    <!--Control Next-->
+                <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselmo"
+                data-bs-slide="Next">
+                <span 
+                class="carousel-control-next-icon"
+                aria-hidden="True">
+                </span>
+                <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+       
+    
+    </div>
+    <br>
+     <!--Accordion-->
+     <div class="accordion" id="accordionKo">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFirst">
+                <button class="accordion-button" type="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#accordionKoBod"
+                aria-expanded="true"
+                aria-controls="accordionKoBod">Accordion #1
+
+                </button>
+            </h2>
+                <div class="accordion-collapse"
+                 id="accordionKoBod"
+                aria-labelledby="headingFirst"
+                data-bs-parent="#accordionKo">
+                <div class="accordion-body text-center">
+                    <p>
+                        Body of accordion
+                    </p>
+                </div>
+        </div>
+    </div>
+    <!--Start of 2nd accordion-->
+    <div class="accordion" id="accordionKo">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFirst">
+                <button class="accordion-button" type="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#accordionKoBod"
+                aria-expanded="true"
+                aria-controls="accordionKoBod">Accordion #2
+
+                </button>
+            </h2>
+                <div class="accordion-collapse"
+                 id="accordionKoBod"
+                aria-labelledby="headingFirst"
+                data-bs-parent="#accordionKo">
+                <div class="accordion-body text-center">
+                    <p>
+                        Body of accordion
+                    </p>
+                </div>
+        </div>
+    </div>
+    <!--Start of accordion 3-->
+    <div class="accordion" id="accordionKo">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFirst">
+                <button class="accordion-button" type="button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#accordionKoBod"
+                aria-expanded="true"
+                aria-controls="accordionKoBod">Accordion #3
+
+                </button>
+            </h2>
+                <div class="accordion-collapse"
+                 id="accordionKoBod"
+                aria-labelledby="headingFirst"
+                data-bs-parent="#accordionKo">
+                <div class="accordion-body text-center">
+                    <p>
+                        Body of accordion
+                    </p>
+                </div>
+        </div>
+    </div>
+    <!-- ENd of accordion-->
+    <br><br>
+
+    <!--first modal-->
+    <button class="btn btn-outline-primary"
+    type="button"
+    data-bs-toggle="modal"
+    data-bs-target="#modal1">Trigger of modal
+    </button>
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--Start of modal header-->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle"></h5>
+                    <button class="btn-close"
+                            type="button"
+                            data-bs-dismiss="modal"
+                            aria-label="close">
+
+                    </button>
+                </div>
+                <!--end of modal header-->
+                <div class="modal-body">
+                    <p>Some text missing</p>
+                </div>
+                <!--end of body-->
+                <div class="modal-footer">
+                    <button class="btn btn-secondary"
+                    type="button">
+                    Okay
+                </button>
+                <button class="btn btn-outline-primary"
+                type="button">Close
+            </button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--end of 1st modal-->
+    <!--2nd modal-->
+    <button class="btn btn-outline-primary"
+    type="button"
+    data-bs-toggle="modal"
+    data-bs-target="#modal2">Trigger of modal
+    </button>
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!--Start of modal header-->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle"></h5>
+                    <button class="btn-close"
+                            type="button"
+                            data-bs-dismiss="modal"
+                            aria-label="close">
+
+                    </button>
+                </div>
+                <!--end of modal header-->
+                <div class="modal-body">
+                    <p>Some text missing</p>
+                </div>
+                <!--end of body-->
+                <div class="modal-footer">
+                    <button class="btn btn-secondary"
+                    type="button">
+                    Okay
+                </button>
+                <button class="btn btn-outline-primary"
+                type="button">Close
+            </button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--End of modal footer-->
+    <br><br>
+    <!--Pagination-->
+    <nav aria-label="page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#">previews</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link" href="#">next</a>
+            </li>
+        </ul>
+    </nav>
+    <!--End of pagination-->
+ 
+ 
+ 
+    <!--Start of footer-->
+ <div id="Footer" class="container-fluid text-center bg-warning">
+    @2022 Koinzell455@gmail.com
+</div>
+    
+    
+    </div>
+   
+  </body>
+</html>
