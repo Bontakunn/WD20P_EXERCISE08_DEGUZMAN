@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bookings</title>
+        <style>
+            #footer{
+               background-color: aqua;
+           }
+           #Footer-menu{
+              font-size: 18pt;
+               width: 50%;
+               text-align: center;}
+               #nav-menu{
+                font-size: 20pt;
+                width: 50%;
+                text-align: center;
+            }
+            #nav{
+                background-color: aqua;
+            }
+       </style>
+    </head>
+    <body style="background-color: coral"><center>
+        <div style="background-color:burlywood";>
+            <table>
+              <tr> <td> <img src="Images/logo.png" width="50px" height="50px" ></td>
+                <td><h1>Welcome to City of Nueva Ecija</h1> </td></tr>
+            </table> 
+        </div>
+        <div id="nav">
+            <table name="nav-menu" id="nav-menu">
+                <tr>
+                <td><a href="Index.html">Home</a></td> 
+                <td><a href="About.html">About</a></td>
+                <td><a href="Tourism.html">Tourism</a></td>
+                <td><a href="Cultures.html">Cultures</a></td>
+                <td><a href="Bookings.html">Book Now</a></td>
+                </tr>
+            </table> 
+        </div>
+        <br>
+        <br>
+        <div>
+            <b>
+            <form>
+                <table style="border: solid;">
+                    <thread>
+                    <th colspan="2">BASIC INFORMATION</th>
+                    </thread>
+                    <tr>
+                        <td>FIRST NAME:</td>
+                        <td><input type="text" name="fname" id="fname"></td>
+                    </tr>
+                    <tr>
+                        <td>LAST NAME:</td>
+                        <td><input type="text" name="lname" id="lname"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>AGE:</td>
+                        <td><input type="number" name="age" id="age" min="18" max="99"></td>
+                    </tr>
+                    <tr>
+                        <td>BIRTHDATE:</td>
+                        <td><input type="date" name="bday" id="bday"></td>
+                    </tr>
+                    <tr>
+                        <td>GENDER:</td>
+                        <td>
+                            <select name="gender" id="gender">
+                                <option value="male">MALE</option>
+                                <option value="female">FEMALE</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2x2 PICTURE:</td>
+                        <td><input type="file" name="pic" id="pic"></td>
+                    </tr>
+                    <tr>
+                        <td>TELL ME ABOUT YOURSELF:</td>
+                       <td><textarea name="self_info" id="self_info"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                        <input type="submit" name="submit" id="submit" value="submit">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </b>
+        </div>
+        <br>
+        <br>
+        <div>
+            <tr>
+             <td>
+                 <img src="Images/map.jpg" width="500px" height="500px" >
+             </td>
+            </tr>
+         </div>
+        <div id="footer">
+            <table id="Footer-menu">
+                <tr>
+                    <td>Facebook:</td>
+                    <td>Email:</td>
+                    <td>Contact #:</td>
+                </tr>
+                <tr>
+                    <td><a href="">www.facebook.com</a></td>
+                    <td><a href="">City@gmail.com</a></td>
+                    <td><a href="">09673174785</a></td>
+                </tr>
+            </table>
+        </div>
+       
+        </center>
+    </body>
+</html>
